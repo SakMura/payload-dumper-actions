@@ -22,7 +22,7 @@ jobs:
 
       - name: Dump payload.bin
         run: |
-          ./payload-dumper-go -p boot -o output ./tmp/ROM.zip
+          ./payload-dumper-go -p system -o output ./tmp/ROM.zip
           rm -rf tmp/
           rm payload-dumper-go
           
